@@ -1,0 +1,17 @@
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/pageObjects/BasePage.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/pageObjects/CartPage.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/pageObjects/HomePage.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/pageObjects/ProductsPage.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/pageObjects/WebviewPage.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/testBase/BaseClass.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/testCases/TC01_LaunchApp.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/testCases/TC02_ShopSelectingCanada.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/testCases/TC03_LetsShop.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/testCases/TC04_AddToCart.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/testCases/TC05_CompletePurchase.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/testCases/TC06_TermsAndConditions.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/testCases/TC07_ValidateToastMessage.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/utilities/DataProviders.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/utilities/ExcelUtility.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/utilities/ExtentReportManager.java
+/Users/raymondrohring/appium-workspace/MobileAutomationFramework/src/test/java/utilities/RetryAnalyzer.java

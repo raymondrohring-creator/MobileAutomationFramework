@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]">
+  <test thread-count="2" name="AndroidDeviceTest(failed)">
+    <parameter name="pixel9" value="emulator-5554"/>
+    <classes>
+      <class name="testCases.TC04_AddToCart">
+        <methods>
+          <include name="AddToCartTest"/>
+          <include name="tearDown"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- testCases.TC04_AddToCart -->
+    </classes>
+  </test> <!-- AndroidDeviceTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

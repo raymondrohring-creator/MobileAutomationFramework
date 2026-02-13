@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="13" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-12T12:56:43 EST" name="MobileSuite" finished-at="2026-02-12T13:01:36 EST" duration-ms="292800">
+    <groups>
+      <group name="datadriven">
+        <method signature="TC04_AddToCart.AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" name="AddToCartTest" class="testCases.TC04_AddToCart"/>
+      </group> <!-- datadriven -->
+      <group name="regression">
+        <method signature="TC01_LaunchApp.LaunchAppTest()[pri:0, instance:testCases.TC01_LaunchApp@7fbdb894]" name="LaunchAppTest" class="testCases.TC01_LaunchApp"/>
+        <method signature="TC02_ShopSelectingCanada.ShopSelectingCanadaTest()[pri:0, instance:testCases.TC02_ShopSelectingCanada@f107c50]" name="ShopSelectingCanadaTest" class="testCases.TC02_ShopSelectingCanada"/>
+        <method signature="TC03_LetsShop.LetsShopTest()[pri:0, instance:testCases.TC03_LetsShop@51133c06]" name="LetsShopTest" class="testCases.TC03_LetsShop"/>
+        <method signature="TC04_AddToCart.AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" name="AddToCartTest" class="testCases.TC04_AddToCart"/>
+        <method signature="TC05_CompletePurchase.CompletePurchaseTest()[pri:0, instance:testCases.TC05_CompletePurchase@4241e0f4]" name="CompletePurchaseTest" class="testCases.TC05_CompletePurchase"/>
+        <method signature="TC06_TermsAndConditions.TermsAndConditionsTest()[pri:0, instance:testCases.TC06_TermsAndConditions@4ebff610]" name="TermsAndConditionsTest" class="testCases.TC06_TermsAndConditions"/>
+        <method signature="TC07_ValidateToastMessage.ValidateToastMessageTest()[pri:0, instance:testCases.TC07_ValidateToastMessage@60410cd]" name="ValidateToastMessageTest" class="testCases.TC07_ValidateToastMessage"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC01_LaunchApp.LaunchAppTest()[pri:0, instance:testCases.TC01_LaunchApp@7fbdb894]" name="LaunchAppTest" class="testCases.TC01_LaunchApp"/>
+        <method signature="TC03_LetsShop.LetsShopTest()[pri:0, instance:testCases.TC03_LetsShop@51133c06]" name="LetsShopTest" class="testCases.TC03_LetsShop"/>
+        <method signature="TC04_AddToCart.AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" name="AddToCartTest" class="testCases.TC04_AddToCart"/>
+        <method signature="TC05_CompletePurchase.CompletePurchaseTest()[pri:0, instance:testCases.TC05_CompletePurchase@4241e0f4]" name="CompletePurchaseTest" class="testCases.TC05_CompletePurchase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-02-12T12:56:43 EST" name="Pixel_9" finished-at="2026-02-12T13:01:36 EST" duration-ms="292800">
+      <class name="testCases.TC06_TermsAndConditions">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC06_TermsAndConditions@4ebff610]" started-at="2026-02-12T13:01:10 EST" name="setUp" finished-at="2026-02-12T13:01:13 EST" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TermsAndConditionsTest()[pri:0, instance:testCases.TC06_TermsAndConditions@4ebff610]" started-at="2026-02-12T13:01:13 EST" name="TermsAndConditionsTest" finished-at="2026-02-12T13:01:27 EST" duration-ms="13521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsAndConditionsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC06_TermsAndConditions@4ebff610]" started-at="2026-02-12T13:01:27 EST" name="tearDown" finished-at="2026-02-12T13:01:27 EST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC06_TermsAndConditions -->
+      <class name="testCases.TC05_CompletePurchase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC05_CompletePurchase@4241e0f4]" started-at="2026-02-12T13:00:30 EST" name="setUp" finished-at="2026-02-12T13:00:33 EST" duration-ms="3392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CompletePurchaseTest()[pri:0, instance:testCases.TC05_CompletePurchase@4241e0f4]" started-at="2026-02-12T13:00:33 EST" name="CompletePurchaseTest" finished-at="2026-02-12T13:01:09 EST" duration-ms="36104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompletePurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC05_CompletePurchase@4241e0f4]" started-at="2026-02-12T13:01:09 EST" name="tearDown" finished-at="2026-02-12T13:01:10 EST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC05_CompletePurchase -->
+      <class name="testCases.TC07_ValidateToastMessage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC07_ValidateToastMessage@60410cd]" started-at="2026-02-12T13:01:27 EST" name="setUp" finished-at="2026-02-12T13:01:31 EST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidateToastMessageTest()[pri:0, instance:testCases.TC07_ValidateToastMessage@60410cd]" started-at="2026-02-12T13:01:31 EST" name="ValidateToastMessageTest" finished-at="2026-02-12T13:01:36 EST" duration-ms="4975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateToastMessageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC07_ValidateToastMessage@60410cd]" started-at="2026-02-12T13:01:36 EST" name="tearDown" finished-at="2026-02-12T13:01:36 EST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC07_ValidateToastMessage -->
+      <class name="testCases.TC01_LaunchApp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC01_LaunchApp@7fbdb894]" started-at="2026-02-12T12:56:43 EST" name="setUp" finished-at="2026-02-12T12:56:47 EST" duration-ms="3880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LaunchAppTest()[pri:0, instance:testCases.TC01_LaunchApp@7fbdb894]" started-at="2026-02-12T12:56:47 EST" name="LaunchAppTest" finished-at="2026-02-12T12:56:51 EST" duration-ms="4250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_LaunchApp@7fbdb894]" started-at="2026-02-12T12:56:51 EST" name="tearDown" finished-at="2026-02-12T12:56:52 EST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_LaunchApp -->
+      <class name="testCases.TC03_LetsShop">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC03_LetsShop@51133c06]" started-at="2026-02-12T12:57:14 EST" name="setUp" finished-at="2026-02-12T12:57:17 EST" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LetsShopTest()[pri:0, instance:testCases.TC03_LetsShop@51133c06]" started-at="2026-02-12T12:57:17 EST" name="LetsShopTest" finished-at="2026-02-12T12:57:25 EST" duration-ms="7283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LetsShopTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_LetsShop@51133c06]" started-at="2026-02-12T12:57:25 EST" name="tearDown" finished-at="2026-02-12T12:57:25 EST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC03_LetsShop -->
+      <class name="testCases.TC02_ShopSelectingCanada">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC02_ShopSelectingCanada@f107c50]" started-at="2026-02-12T12:56:52 EST" name="setUp" finished-at="2026-02-12T12:56:55 EST" duration-ms="3332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ShopSelectingCanadaTest()[pri:0, instance:testCases.TC02_ShopSelectingCanada@f107c50]" started-at="2026-02-12T12:56:55 EST" name="ShopSelectingCanadaTest" finished-at="2026-02-12T12:57:13 EST" duration-ms="18526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopSelectingCanadaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_ShopSelectingCanada@f107c50]" started-at="2026-02-12T12:57:13 EST" name="tearDown" finished-at="2026-02-12T12:57:14 EST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC02_ShopSelectingCanada -->
+      <class name="testCases.TC04_AddToCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:57:26 EST" name="setUp" finished-at="2026-02-12T12:57:29 EST" duration-ms="3452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:57:29 EST" name="AddToCartTest" data-provider="LoginData" finished-at="2026-02-12T12:57:47 EST" duration-ms="17492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aruba]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ray]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Converse All Star]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:57:47 EST" name="tearDown" finished-at="2026-02-12T12:57:47 EST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:57:47 EST" name="setUp" finished-at="2026-02-12T12:57:50 EST" duration-ms="3420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:57:50 EST" name="AddToCartTest" data-provider="LoginData" finished-at="2026-02-12T12:58:13 EST" duration-ms="22349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bluey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PG 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:58:13 EST" name="tearDown" finished-at="2026-02-12T12:58:13 EST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:58:13 EST" name="setUp" finished-at="2026-02-12T12:58:16 EST" duration-ms="3476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:58:16 EST" name="AddToCartTest" data-provider="LoginData" finished-at="2026-02-12T12:58:42 EST" duration-ms="25045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Christ the Redeemer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LeBron Soldier 12 ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:58:42 EST" name="tearDown" finished-at="2026-02-12T12:58:42 EST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:58:42 EST" name="setUp" finished-at="2026-02-12T12:58:45 EST" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:58:45 EST" name="AddToCartTest" data-provider="LoginData" finished-at="2026-02-12T12:59:08 EST" duration-ms="23332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rae]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Air Jordan 9 Retro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:59:08 EST" name="tearDown" finished-at="2026-02-12T12:59:09 EST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:59:09 EST" name="setUp" finished-at="2026-02-12T12:59:12 EST" duration-ms="3327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:59:12 EST" name="AddToCartTest" data-provider="LoginData" finished-at="2026-02-12T12:59:37 EST" duration-ms="25124" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[China]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lu Bai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jordan Lift Off]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Jordan Lift Off] but found [Jordan 6 Rings]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Jordan Lift Off] but found [Jordan 6 Rings]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testCases.TC04_AddToCart.AddToCartTest(TC04_AddToCart.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:59:37 EST" name="tearDown" finished-at="2026-02-12T12:59:38 EST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:59:38 EST" name="setUp" finished-at="2026-02-12T12:59:41 EST" duration-ms="3458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T12:59:41 EST" name="AddToCartTest" data-provider="LoginData" finished-at="2026-02-12T13:00:06 EST" duration-ms="25086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[China]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lu Bai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jordan Lift Off]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T13:00:06 EST" name="tearDown" finished-at="2026-02-12T13:00:06 EST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T13:00:06 EST" name="setUp" finished-at="2026-02-12T13:00:10 EST" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCartTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T13:00:10 EST" name="AddToCartTest" data-provider="LoginData" finished-at="2026-02-12T13:00:30 EST" duration-ms="19709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Christmas Island]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Depeche Mode]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Air Jordan 4 Retro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_AddToCart@4b213651]" started-at="2026-02-12T13:00:30 EST" name="tearDown" finished-at="2026-02-12T13:00:30 EST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC04_AddToCart -->
+    </test> <!-- Pixel_9 -->
+  </suite> <!-- MobileSuite -->
+</testng-results>

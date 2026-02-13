@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "Parallel Mobile Suite" parallel = "tests" thread-count = "2">
+<groups>
+<run>
+<!--<include name = "sanity"/>-->
+<!--<include name = "regression"/>-->
+<include name = "datadriven"/>
+</run>
+</groups>
+<listeners>
+  <listener class-name = "utilities.ExtentReportManager"/>
+</listeners>
+  <test name = "Pixel_9">
+  <parameter name = "deviceName" value = "emulator-5554"/>
+  <parameter name = "systemPort" value = "8200"/>
+  <parameter name = "os" value = "Android"/>
+    <classes>
+      <class name = "testCases.TC01_LaunchApp"/>
+      <class name = "testCases.TC02_ShopSelectingCanada"/>
+      <class name = "testCases.TC03_LetsShop"/>
+      <class name = "testCases.TC04_AddToCart"/>
+      <class name = "testCases.TC05_CompletePurchase"/>
+      <class name = "testCases.TC06_TermsAndConditions"/>
+      <class name = "testCases.TC07_ValidateToastMessage"/>
+    </classes>
+  </test>
+  <test name = "Small Phone">
+  <parameter name = "deviceName" value = "emulator-5556"/>
+  <parameter name = "systemPort" value = "8201"/>
+  <parameter name = "os" value = "Android"/>
+    <classes>
+      <class name = "testCases.TC01_LaunchApp"/>
+      <class name = "testCases.TC02_ShopSelectingCanada"/>
+      <class name = "testCases.TC03_LetsShop"/>
+      <class name = "testCases.TC04_AddToCart"/>
+      <class name = "testCases.TC05_CompletePurchase"/>
+      <class name = "testCases.TC06_TermsAndConditions"/>
+      <class name = "testCases.TC07_ValidateToastMessage"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MobileSuite" class="navigator-link">
+              <span class="suite-name border-skipped">MobileSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MobileSuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MobileSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MobileSuite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MobileSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MobileSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MobileSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MobileSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,  1 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-MobileSuite" class="hide-methods skipped suite-MobileSuite"> (hide)</a> <!-- hide-methods skipped suite-MobileSuite -->
+                      <a href="#" panel-name="suite-MobileSuite" class="show-methods skipped suite-MobileSuite"> (show)</a> <!-- show-methods skipped suite-MobileSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-MobileSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC04_AddToCart" class="method navigator-link" hash-for-method="AddToCartTest(China, Lu Bai, female, Jordan Lift Off)">AddToCartTest(China, Lu Bai, female, Jordan Lift Off)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-MobileSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MobileSuite" class="hide-methods passed suite-MobileSuite"> (hide)</a> <!-- hide-methods passed suite-MobileSuite -->
+                      <a href="#" panel-name="suite-MobileSuite" class="show-methods passed suite-MobileSuite"> (show)</a> <!-- show-methods passed suite-MobileSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MobileSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC04_AddToCart" class="method navigator-link" hash-for-method="AddToCartTest(China, Lu Bai, female, Jordan Lift Off)">AddToCartTest(China, Lu Bai, female, Jordan Lift Off)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC04_AddToCart" class="method navigator-link" hash-for-method="AddToCartTest(Australia, Bluey, female, PG 3)">AddToCartTest(Australia, Bluey, female, PG 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC04_AddToCart" class="method navigator-link" hash-for-method="AddToCartTest(Brazil, Christ the Redeemer, male, LeBron Soldier 12 )">AddToCartTest(Brazil, Christ the Redeemer, male, LeBron Soldier 12 )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC04_AddToCart" class="method navigator-link" hash-for-method="AddToCartTest(Aruba, Ray, male, Converse All Star)">AddToCartTest(Aruba, Ray, male, Converse All Star)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC04_AddToCart" class="method navigator-link" hash-for-method="AddToCartTest(Canada, Rae, female, Air Jordan 9 Retro)">AddToCartTest(Canada, Rae, female, Air Jordan 9 Retro)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC04_AddToCart" class="method navigator-link" hash-for-method="AddToCartTest(Christmas Island, Depeche Mode, male, Air Jordan 4 Retro)">AddToCartTest(Christmas Island, Depeche Mode, male, Air Jordan 4 Retro)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC05_CompletePurchase" class="method navigator-link" hash-for-method="CompletePurchaseTest">CompletePurchaseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC01_LaunchApp" class="method navigator-link" hash-for-method="LaunchAppTest">LaunchAppTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC03_LetsShop" class="method navigator-link" hash-for-method="LetsShopTest">LetsShopTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC02_ShopSelectingCanada" class="method navigator-link" hash-for-method="ShopSelectingCanadaTest">ShopSelectingCanadaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC06_TermsAndConditions" class="method navigator-link" hash-for-method="TermsAndConditionsTest">TermsAndConditionsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MobileSuite" title="testCases.TC07_ValidateToastMessage" class="method navigator-link" hash-for-method="ValidateToastMessageTest">ValidateToastMessageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MobileSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MobileSuite" class="panel MobileSuite">
+          <div class="suite-MobileSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC04_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest(China, Lu Bai, female, Jordan Lift Off)">
+                  </a> <!-- AddToCartTest(China, Lu Bai, female, Jordan Lift Off) -->
+                  <span class="method-name">AddToCartTest</span>
+                  <span class="parameters">(China,Lu Bai,female,Jordan Lift Off)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Jordan Lift Off] but found [Jordan 6 Rings]
+	at testCases.TC04_AddToCart.AddToCartTest(TC04_AddToCart.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MobileSuite-class-skipped -->
+          <div class="suite-MobileSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC02_ShopSelectingCanada</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShopSelectingCanadaTest">
+                  </a> <!-- ShopSelectingCanadaTest -->
+                  <span class="method-name">ShopSelectingCanadaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MobileSuite-class-passed -->
+          <div class="suite-MobileSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC05_CompletePurchase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CompletePurchaseTest">
+                  </a> <!-- CompletePurchaseTest -->
+                  <span class="method-name">CompletePurchaseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MobileSuite-class-passed -->
+          <div class="suite-MobileSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC07_ValidateToastMessage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateToastMessageTest">
+                  </a> <!-- ValidateToastMessageTest -->
+                  <span class="method-name">ValidateToastMessageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MobileSuite-class-passed -->
+          <div class="suite-MobileSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC03_LetsShop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LetsShopTest">
+                  </a> <!-- LetsShopTest -->
+                  <span class="method-name">LetsShopTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MobileSuite-class-passed -->
+          <div class="suite-MobileSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC01_LaunchApp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAppTest">
+                  </a> <!-- LaunchAppTest -->
+                  <span class="method-name">LaunchAppTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MobileSuite-class-passed -->
+          <div class="suite-MobileSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC04_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest(China, Lu Bai, female, Jordan Lift Off)">
+                  </a> <!-- AddToCartTest(China, Lu Bai, female, Jordan Lift Off) -->
+                  <span class="method-name">AddToCartTest</span>
+                  <span class="parameters">(China,Lu Bai,female,Jordan Lift Off)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest(Australia, Bluey, female, PG 3)">
+                  </a> <!-- AddToCartTest(Australia, Bluey, female, PG 3) -->
+                  <span class="method-name">AddToCartTest</span>
+                  <span class="parameters">(Australia,Bluey,female,PG 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest(Brazil, Christ the Redeemer, male, LeBron Soldier 12 )">
+                  </a> <!-- AddToCartTest(Brazil, Christ the Redeemer, male, LeBron Soldier 12 ) -->
+                  <span class="method-name">AddToCartTest</span>
+                  <span class="parameters">(Brazil,Christ the Redeemer,male,LeBron Soldier 12 )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest(Aruba, Ray, male, Converse All Star)">
+                  </a> <!-- AddToCartTest(Aruba, Ray, male, Converse All Star) -->
+                  <span class="method-name">AddToCartTest</span>
+                  <span class="parameters">(Aruba,Ray,male,Converse All Star)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest(Canada, Rae, female, Air Jordan 9 Retro)">
+                  </a> <!-- AddToCartTest(Canada, Rae, female, Air Jordan 9 Retro) -->
+                  <span class="method-name">AddToCartTest</span>
+                  <span class="parameters">(Canada,Rae,female,Air Jordan 9 Retro)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest(Christmas Island, Depeche Mode, male, Air Jordan 4 Retro)">
+                  </a> <!-- AddToCartTest(Christmas Island, Depeche Mode, male, Air Jordan 4 Retro) -->
+                  <span class="method-name">AddToCartTest</span>
+                  <span class="parameters">(Christmas Island,Depeche Mode,male,Air Jordan 4 Retro)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MobileSuite-class-passed -->
+          <div class="suite-MobileSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC06_TermsAndConditions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TermsAndConditionsTest">
+                  </a> <!-- TermsAndConditionsTest -->
+                  <span class="method-name">TermsAndConditionsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MobileSuite-class-passed -->
+        </div> <!-- panel MobileSuite -->
+        <div panel-name="test-xml-MobileSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/raymondrohring/appium-workspace/MobileAutomationFramework/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;MobileSuite&quot; verbose=&quot;0&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Pixel_9&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;Pixel_9&quot; value=&quot;emulator-5554&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC01_LaunchApp&quot;/&gt;
+      &lt;class name=&quot;testCases.TC02_ShopSelectingCanada&quot;/&gt;
+      &lt;class name=&quot;testCases.TC03_LetsShop&quot;/&gt;
+      &lt;class name=&quot;testCases.TC04_AddToCart&quot;/&gt;
+      &lt;class name=&quot;testCases.TC05_CompletePurchase&quot;/&gt;
+      &lt;class name=&quot;testCases.TC06_TermsAndConditions&quot;/&gt;
+      &lt;class name=&quot;testCases.TC07_ValidateToastMessage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Pixel_9 --&gt;
+&lt;/suite&gt; &lt;!-- MobileSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MobileSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MobileSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Pixel_9 (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MobileSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MobileSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">datadriven</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AddToCartTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AddToCartTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CompletePurchaseTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LaunchAppTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LetsShopTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ShopSelectingCanadaTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TermsAndConditionsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidateToastMessageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AddToCartTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CompletePurchaseTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LaunchAppTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LetsShopTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MobileSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MobileSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MobileSuite');
+function tableData_MobileSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CompletePurchaseTest')
+data.setCell(0, 2, 'testCases.TC05_CompletePurchase')
+data.setCell(0, 3, 36104);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddToCartTest')
+data.setCell(1, 2, 'testCases.TC04_AddToCart')
+data.setCell(1, 3, 25124);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AddToCartTest')
+data.setCell(2, 2, 'testCases.TC04_AddToCart')
+data.setCell(2, 3, 25086);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'AddToCartTest')
+data.setCell(3, 2, 'testCases.TC04_AddToCart')
+data.setCell(3, 3, 25045);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddToCartTest')
+data.setCell(4, 2, 'testCases.TC04_AddToCart')
+data.setCell(4, 3, 23332);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'AddToCartTest')
+data.setCell(5, 2, 'testCases.TC04_AddToCart')
+data.setCell(5, 3, 22349);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'AddToCartTest')
+data.setCell(6, 2, 'testCases.TC04_AddToCart')
+data.setCell(6, 3, 19709);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ShopSelectingCanadaTest')
+data.setCell(7, 2, 'testCases.TC02_ShopSelectingCanada')
+data.setCell(7, 3, 18526);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AddToCartTest')
+data.setCell(8, 2, 'testCases.TC04_AddToCart')
+data.setCell(8, 3, 17492);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TermsAndConditionsTest')
+data.setCell(9, 2, 'testCases.TC06_TermsAndConditions')
+data.setCell(9, 3, 13521);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LetsShopTest')
+data.setCell(10, 2, 'testCases.TC03_LetsShop')
+data.setCell(10, 3, 7283);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ValidateToastMessageTest')
+data.setCell(11, 2, 'testCases.TC07_ValidateToastMessage')
+data.setCell(11, 3, 4975);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LaunchAppTest')
+data.setCell(12, 2, 'testCases.TC01_LaunchApp')
+data.setCell(12, 3, 4250);
+window.suiteTableData['MobileSuite']= { tableData: data, tableDiv: 'times-div-MobileSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-MobileSuite">
+              </div> <!-- times-div-MobileSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MobileSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MobileSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MobileSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MobileSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC01_LaunchApp</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LaunchAppTest</span>
+                <span class="method-start">3881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8137 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC02_ShopSelectingCanada</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShopSelectingCanadaTest</span>
+                <span class="method-start">11733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30260 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC03_LetsShop</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LetsShopTest</span>
+                <span class="method-start">34202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41486 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC04_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest(Aruba, Ray, male, Converse All Star)</span>
+                <span class="method-start">45887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest(Australia, Bluey, female, PG 3)</span>
+                <span class="method-start">67109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest(Brazil, Christ the Redeemer, male, LeBron Soldier 12 )</span>
+                <span class="method-start">93277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest(Canada, Rae, female, Air Jordan 9 Retro)</span>
+                <span class="method-start">121984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">145319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">145633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest(China, Lu Bai, female, Jordan Lift Off)</span>
+                <span class="method-start">148960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">174085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">174391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest(China, Lu Bai, female, Jordan Lift Off)</span>
+                <span class="method-start">177849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">202936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">203247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest(Christmas Island, Depeche Mode, male, Air Jordan 4 Retro)</span>
+                <span class="method-start">206657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">226368 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC05_CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">226677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CompletePurchaseTest</span>
+                <span class="method-start">230069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">266174 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC06_TermsAndConditions</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">266741 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TermsAndConditionsTest</span>
+                <span class="method-start">270319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">283842 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC07_ValidateToastMessage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">284127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateToastMessageTest</span>
+                <span class="method-start">287490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">292466 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
